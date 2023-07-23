@@ -35,9 +35,9 @@ public class Main {
     Automat hbAutomat = new HotBeverageAutomat();
     hbAutomat.initProduct(myList);
 
-    String name = "Cappuccino";
-    Double volume = 0.5;
-    Integer temperature = 80;
+    String name = "Latte";
+    Double volume = 0.8;
+    Integer temperature = 60;
 
     System.out.println(((HotBeverageAutomat) hbAutomat).getProduct(name, volume, temperature).toString());
 
